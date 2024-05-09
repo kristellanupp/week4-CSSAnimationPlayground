@@ -37,7 +37,8 @@ body {
 
 #yellow {
     background-color: yellow;
-    animation: yellow 3s ease-in-out;
+    animation: yellow 3s ease-in-out forwards;
+    opacity: 0;
     animation-iteration-count: infinite;
 }
 
